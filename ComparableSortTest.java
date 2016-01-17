@@ -68,6 +68,6 @@ class ComparableSortTest{
     	    System.out.println("Book[" + i + "] pages number: " + sortedBooks[i].pageNum + 
     	    		       " name: " + sortedBooks[i].name);
     	}
-    	System.out.println("\nВремя выполнение программы: " + (System.currentTimeMillis() - start) + " Мсек");
+    	System.out.println("\Time of programm running: " + (System.currentTimeMillis() - start) + " msec");
     }
 }
